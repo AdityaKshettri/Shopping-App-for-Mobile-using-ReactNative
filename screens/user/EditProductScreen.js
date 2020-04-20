@@ -25,7 +25,6 @@ const formReducer = (state, action) => {
             updatedFormIsValid = updatedFormIsValid && updatedValidities[key];
         }
         return {
-            ...state,
             inputValues: updatedValues,
             inputValidities: updatedValidities,
             formIsValid: updatedFormIsValid
@@ -169,10 +168,11 @@ const EditProductScreen = props => {
                         label='Description'
                         errorText='Please enter a valid description!!'
                         keyboardType='default'
+                        returnKeyType='next'
                         autoCapitalize='sentences'
                         autoCorrect
                         multiline
-                        numberOfLine={3}
+                        numberOfLines={3}
                         onInputChange={inputChangeHandler}
                         initialValue={editedProduct ? editedProduct.description : ''}
                         initiallyValid={!!editedProduct}
