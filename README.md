@@ -4,6 +4,7 @@ In this project, I have worked on a Shopping Mobile App where products are store
 # How to see a demo of this project:
 
 1- Install Expo-Client App in your android/ios mobile device from Playstore/Appstore.
+https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en_IN
 
 2- Go to https://expo.io/@adityakshettri/the-shopping-app in your desktop and scan the QR code from your Expo-client App in your android/ios mobile device.
 
