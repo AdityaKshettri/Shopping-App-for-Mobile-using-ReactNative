@@ -28,6 +28,7 @@ OR
 
 3- Download all the dependencies in package.json using:
 > cd ProjectFolder
+
 > npm install
 
 4- Run the project using:
